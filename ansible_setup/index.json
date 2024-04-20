@@ -1,0 +1,19 @@
+{
+  "title": "Ansible configuration lab",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "wait.sh",
+      "background": "setup.sh"      
+    },
+    "assets": {
+      "host01": [
+        {"file": "connect", "target": "/usr/bin/", "chmod": "+x"},
+        {"file": "infra.yml", "target": "/tmp/", "chmod": "+r"}
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

@@ -1,0 +1,3 @@
+#!/bin/bash
+kubectl exec -it pods/$1 -- bash
+exit 0
