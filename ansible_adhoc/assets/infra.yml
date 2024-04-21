@@ -5,7 +5,7 @@ services:
   controller: 
     container_name: controller
     hostname: controller
-    image: joaotonelli/alma_sshd:9
+    image: joaotonelli/lab_ansible_controller
     networks: 
       - lab  
   node1:

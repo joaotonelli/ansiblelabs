@@ -1,5 +1,6 @@
 {
     "items": [
-      { "path": "ansible_setup" }
+      { "path": "ansible_setup" },
+      { "path": "ansible_adhoc" }
     ]
   }
