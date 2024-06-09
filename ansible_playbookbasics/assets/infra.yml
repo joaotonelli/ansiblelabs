@@ -1,0 +1,26 @@
+---
+version: "3.3"
+
+services:
+  controller: 
+    container_name: controller
+    hostname: controller
+    image: joaotonelli/lab_ansible_controller
+    networks: 
+      - lab  
+  node1:
+    container_name: node1
+    hostname: node1
+    image: joaotonelli/alma_sshd:9
+    networks: 
+      - lab
+  node2: 
+    container_name: node2
+    hostname: node2
+    image: joaotonelli/alma_sshd:9
+    networks: 
+      - lab
+
+networks:
+  lab:
+...
