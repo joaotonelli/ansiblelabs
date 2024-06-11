@@ -1,3 +1,4 @@
+## Tarefas
 - Criar um Ansible Vault encryptado contendo a variável **devops_password**
 - Configurar o Ansible para trabalhar com o Vault criado
 - Criar um playbook conforme especificação abaixo:

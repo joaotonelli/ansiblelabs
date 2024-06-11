@@ -1,3 +1,5 @@
+## Tarefas
+
 - Instalar o ansible
 - Verificar a versão instalada
 - Criar diretório **~/ansible** para o projeto Ansible

@@ -1,3 +1,5 @@
+## Tarefas
+
 - Executar módulo ping para assegurar bom funcionamento do ansible
 - Criar usuário de sistema **automacao** com bloqueio de login no ambiente de produção
     - Após execução, verificar existência do usuário no host **node2**
