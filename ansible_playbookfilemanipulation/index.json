@@ -13,7 +13,8 @@
     "assets": {
       "host01": [
         {"file": "connect", "target": "/usr/bin/", "chmod": "+x"},
-        {"file": "infra.yml", "target": "/tmp/", "chmod": "+r"}
+        {"file": "infra.yml", "target": "/tmp/", "chmod": "+r"},
+        {"file": "README", "target": "/tmp/", "chmod": "+r"}
       ]
     }
   },

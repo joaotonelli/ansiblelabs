@@ -9,4 +9,8 @@ Exemplo:
 > node1: 62MB/1024MB 
 > node2: 75MB/1024MB
 
-**OBS:** Lembre-se que você não está sozinho. No nosso curso você encontrará os vídeos explicativos de cada etapa e ainda poderá tirar suas dúvidas com o instrutor e comunidade de alunos.
+---
+
+Lembre-se que você não está sozinho. No nosso curso você encontrará os vídeos explicativos de cada etapa e ainda poderá tirar suas dúvidas com o instrutor e comunidade de alunos.
+
+---

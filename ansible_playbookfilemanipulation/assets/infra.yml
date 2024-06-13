@@ -1,5 +1,4 @@
 ---
-version: "3.3" # killercoda required
 services:
   controller: 
     container_name: controller
@@ -15,6 +14,7 @@ services:
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
       - /run
+      - /tmp/share:/share
     tmpfs:
       - /run
     networks: 

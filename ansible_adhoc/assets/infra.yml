@@ -1,5 +1,4 @@
 ---
-version: "3.3" # killercoda required
 services:
   controller: 
     container_name: controller

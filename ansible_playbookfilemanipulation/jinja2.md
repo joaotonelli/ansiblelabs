@@ -16,4 +16,9 @@ Exemplo:
 
 Após execução do playbook, realizar login em algum dos hosts e verificar a exibição da mensagem do dia.
 
-**OBS:** Lembre-se que você não está sozinho. No nosso curso você encontrará os vídeos explicativos de cada etapa e ainda poderá tirar suas dúvidas com o instrutor e comunidade de alunos.
+---
+
+Lembre-se que você não está sozinho. No nosso curso você encontrará os vídeos explicativos de cada etapa e ainda poderá tirar suas dúvidas com o instrutor e comunidade de alunos.
+
+---
+

@@ -16,4 +16,8 @@
     
 - Usar o utilitário **ansible-config** para checar as configurações realizadas no projeto
 
-**OBS:** Lembre-se que você não está sozinho. No nosso curso você encontrará os vídeos explicativos de cada etapa e ainda poderá tirar suas dúvidas com o instrutor.
+---
+
+Lembre-se que você não está sozinho. No nosso curso você encontrará os vídeos explicativos de cada etapa e ainda poderá tirar suas dúvidas com o instrutor e comunidade de alunos.
+
+---
