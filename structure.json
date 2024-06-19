@@ -3,6 +3,7 @@
       { "path": "ansible_setup" },
       { "path": "ansible_adhoc" },
       { "path": "ansible_playbookbasics" },
-      { "path": "ansible_playbookfilemanipulation" }
+      { "path": "ansible_playbookfilemanipulation" },
+      { "path": "ansible_complexplaybook" }
     ]
   }

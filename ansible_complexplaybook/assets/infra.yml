@@ -1,0 +1,37 @@
+---
+services:
+  controller: 
+    container_name: controller
+    hostname: controller
+    image: joaotonelli/ansiblecontroller
+    networks: 
+      - lab  
+  node1:
+    image: joaotonelli/ansiblenode
+    container_name: node1
+    hostname: node1
+    privileged: true
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+      - /run
+      - /tmp/share:/share
+    tmpfs:
+      - /run
+    networks: 
+      - lab
+  node2: 
+    image: joaotonelli/ansiblenode:ubuntu
+    container_name: node2
+    hostname: node2
+    privileged: true
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+      - /run
+    tmpfs:
+      - /run
+    networks: 
+      - lab
+
+networks:
+  lab:
+...
