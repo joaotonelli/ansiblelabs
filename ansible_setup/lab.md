@@ -1,5 +1,9 @@
-## Tarefas
+## Objetivo
+Nesse lab iremos instalar e configurar o Ansible no nosso ambiente.
+Conceitos a praticar:
+- Configuração do Ansible
 
+## Tarefas
 - Instalar o ansible
 - Verificar a versão instalada
 - Criar diretório **~/ansible** para o projeto Ansible

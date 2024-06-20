@@ -1,6 +1,11 @@
-## Tarefas
+## Objetivo
+Nesse lab iremos desenvolver um playbook para configurar a "mensagem do dia" (motd) no parque.
+Conceitos a praticar:
+- Ansible facts
+- Jinja2
 
-Desenvolva um playbook para configuração da "mensagem do dia" (motd) conforme especificação abaixo:
+## Desenvolvimento
+Desenvolva um playbook conforme especificação abaixo:
 - Executar em todo os hosts gerenciados
 - Criar o arquivo **motd.j2** de template coforme abaixo:
 

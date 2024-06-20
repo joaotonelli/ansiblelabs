@@ -14,7 +14,6 @@ services:
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
       - /run
-      - /tmp/share:/share
     tmpfs:
       - /run
     networks: 

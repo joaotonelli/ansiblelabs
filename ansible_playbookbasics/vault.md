@@ -1,4 +1,10 @@
-## Tarefas
+## Objetivo
+Nesse lab iremos desenvolver um playbook para criação de um usuário com senha predefinida.
+Conceitos a praticar:
+- Variáveis ansible
+- Ansible vault
+
+## Desenvolvimento
 - Criar um Ansible Vault encryptado contendo a variável **devops_password**
 - Configurar o Ansible para trabalhar com o Vault criado
 - Criar um playbook conforme especificação abaixo:
@@ -6,7 +12,8 @@
     - Usar as variáveis do Vault criado
     - Criar usuário **devops** com a senha definida pela variável **devops_password**
 
-Após execução, testar manualmente o login do usuário **devops** no host **node1**.
+## Verificação
+Após execução, testar manualmente o login do usuário **devops** no host **node1** usando a senha predefinida.
 
 ---
 

@@ -1,5 +1,10 @@
-## Tarefas
-Desenvolva um playbook para coletar de informação de uso de memória RAM conforme especificação abaixo:
+## Objetivo
+Nesse lab iremos desenvolver um playbook para coletar de informação de uso de memória RAM do parque.
+Conceitos a praticar:
+- Ansible facts
+
+## Desenvolvimento
+Desenvolva um playbook conforme especificação abaixo:
 - Executar em todos os hosts gerenciados
 - Utilisar somente Ansible Facts padrões
 - Para cada host, exibir a mensagem seguindo o modelo :
